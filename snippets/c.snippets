@@ -396,3 +396,13 @@ snippet asm
 	:
 	:
 	);
+
+snippet namespace
+	#ifdef __cplusplus
+	namespace $1
+	#endif
+
+
+	#ifdef __cplusplus
+	} // namespace $1
+	#endif
